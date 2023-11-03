@@ -1,14 +1,14 @@
-#Bike Sharing Analysis
+# Bike Sharing Analysis
 
-##Data Source
+## Data Source
 https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset
 
-##Setup Environment
+## Setup Environment
 '''
 pip install numpy pandas matplotlib seaborn streamlit babel
 '''
 
-##Run Streamlit App
+## Run Streamlit App
 '''
 streamlit run dashboard.py
 '''
