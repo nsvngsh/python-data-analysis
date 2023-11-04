@@ -8,5 +8,6 @@ pip install numpy pandas matplotlib seaborn streamlit babel
 
 
 ## Run Streamlit App
+https://dashboardforsubmission.streamlit.app/
 streamlit run dashboard.py
 
