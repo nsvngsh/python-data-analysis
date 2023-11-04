@@ -23,7 +23,7 @@ def create_monthly_df(df: pd.DataFrame) -> pd.DataFrame:
     return monthly_df
 
 #Load Dataset
-dataset_df = pd.read_csv("bike_day_df.csv")
+dataset_df = pd.read_csv("https://raw.githubusercontent.com/nsvngsh/python-data-analysis/main/dashboard/bike_day_df.csv")
 dataset_df["date"] = pd.to_datetime(dataset_df["date"])
 
 st.header(":sparkles: BIKE SHARING ANALYSIS :sparkles:" )
